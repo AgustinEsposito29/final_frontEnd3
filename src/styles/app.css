@@ -1,0 +1,32 @@
+.app {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  /* Establece el tamaño del header */
+.header {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  /* Establece el tamaño del main content */
+.routes{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  /* Establece el tamaño del footer */
+.footer {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }

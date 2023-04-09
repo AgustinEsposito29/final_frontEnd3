@@ -1,0 +1,63 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    width: 300px;
+    margin: 10px 5px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #e0dbdb;
+    box-shadow: 0px 0px 5px rgba(26, 24, 24, 0.2);
+  }
+  
+  .card-container{
+      width: 100vw;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+  .card h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .card p {
+    margin: 0;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .star-button {
+    display: inline-flex;
+    
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    color: #ffd700; /* color de la estrella */
+  }
+  
+  .star-button:hover {
+    cursor: pointer;
+  }
+  
+  .fas.fa-star {
+    font-size: 1.5rem;
+  }
+
+  .star-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px 1px rgba(255, 215, 0, 0.8);
+    filter: brightness(110%);
+  }
+
+  Link {
+    
+  }
