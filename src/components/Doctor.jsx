@@ -11,13 +11,12 @@ export default function Doctor() {
 
     const favsContext = useContext(FavsContext);
 
-    useEffect((id)=>{
-        console.log(doctorPorId(id));
-    }, [id]);
+    useEffect(()=>{
+        console.log(favsContext.fetchDoctorPorId);
+        setDoctor(favsContext.fetchDoctorPorId(id));
+    }, [id, favsContext]);
 
 
-    const doctorPorId = async (id) => await favsContext.fetchDoctorPorId(id);
-    
 
 
 
